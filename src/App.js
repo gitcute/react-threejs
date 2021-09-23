@@ -1,15 +1,18 @@
-import React, { Component} from "react";
-import {hot} from "react-hot-loader";
-import "./App.css";
+import logo from './logo.svg';
+import Three from './components/three';
+import './App.css';
 
-class App extends Component{
-  render(){
-    return(
-      <div className="App">
-        <h1> Hello, World! </h1>
-      </div>
-    );
-  }
+
+
+
+function App() {
+
+
+  return (
+    <div className="App">
+      <Three/>
+    </div>
+  );
 }
 
-export default hot(module)(App);
+export default App;
